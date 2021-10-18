@@ -1,2 +1,2 @@
-#Google Clone
-##Clonging The Google Website
+# Google Clone
+## Cloning The Google Website
