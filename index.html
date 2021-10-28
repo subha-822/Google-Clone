@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" media="" href="./style.css">
+    <script defer src="./javascript.js"></script>
 </head>
 <body>
     <div class="header">
@@ -18,13 +19,14 @@
     <a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
     </div>
     <div class="header1">
-    <img src="./images/google logo.png" height="100px">
+    <img src="./images/google logo.png" >
     </div>
     <div class="header2">
-    <i class="fa fa-search" aria-hidden="true"></i>
-    <input type="search">
-    <i class="fa fa-microphone" aria-hidden="true"></i>
-    
+    <div class="border">
+    <i class="fa fa-search"  aria-hidden="true"></i>
+    <input type="search" id="search" >
+    <i id="mike" class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
     <input type="button" value="Google Search">
     <input type="button" value="I'm Feeling Lucky">
 </div>
